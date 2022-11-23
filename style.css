@@ -206,6 +206,76 @@ nav {
     margin-right: 200px;
 }
 
+/* VISIT */
+
+.address h2 {
+    font-family: 'Museo Sans';
+    font-size: 29px;
+    font-weight: 600;
+    color: #7B84B4;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.address p {
+    line-height: 5px;
+}
+
+.address .date {
+    font-family: 'Museo Sans';
+    font-size: 21px;
+    font-weight: 600;
+    color: #7B84B4;
+    text-transform: uppercase;
+}
+
+.address .date-two {
+    font-family: 'Museo Sans';
+    font-size: 21px;
+    font-weight: 600;
+    color: #7B84B4;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.address .time {
+    font-family: 'Museo Sans';
+    font-size: 21px;
+    font-weight: 300;
+    color: #7B84B4;
+}
+
+button {
+    border: solid #7B84B4 2px;
+    background-color: #F2D3D3;
+    color: #7B84B4;
+    padding: 15px 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-family: 'Museo Sans';
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 60px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: #7B84B4;
+    color: #fff;
+}
+
+/* SHOP */
+
+.pagi-about p {
+    font-family: 'Museo Sans';
+    font-size: 20px;
+    color: #9B131B;
+    font-weight: 400;
+    max-width: 400px;
+    text-align: center;
+}
+
 /* FOOTER */
 
 .footer {
