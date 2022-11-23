@@ -1,1 +1,260 @@
-/* is my code*/
+@import url("https://use.typekit.net/gtc8eln.css");
+@font-face {
+    font-family: "Migra";
+    src: url("fonts/Migra-Regular.woff") format('woff');
+  }
+
+@font-face {
+    font-family: "Migra Italic";
+    src: url("fonts/MigraItalic-Italic.woff") format('woff');
+  }
+
+/* STYLES */
+
+h1 {
+    font-family: 'Migra';
+    font-size: 59px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #9B131B;
+}
+
+h2 {
+    font-family: 'Museo Sans';
+    font-weight: 500;
+    font-size: 29px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #9B131B;
+}
+
+h3{
+    font-family: 'Migra';
+    font-size: 42px;
+    text-align: center;
+    color: #9B131B;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: 'Migra Italic';
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 33px;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #9B131B;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* NAVIGATION */
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    z-index: 1;
+  }
+  
+  .topnav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .topnav li {
+    padding-right: 40px;
+  }
+
+  nav a {
+    color: #5B6495;
+    font-family: 'Museo Sans';
+    font-size: 20px;
+    color: #5B6495;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .topnav .visit {
+    margin-top: 30px;
+    margin-right: 70px;
+  }
+
+  .topnav .shop {
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+
+  nav .logo {
+    width: 170px;
+  }
+
+  .menu-nav {
+    list-style: none;
+  }
+  
+  .menu-nav li {
+    padding-right: 40px;
+  }
+
+  .menu-nav a {
+    font-family: 'Museo Sans';
+    font-size: 38px;
+    font-weight: 900;
+    color: #C16C51;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 80px;
+  }
+
+/* HOMEPAGE */
+
+.homepage {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 800px;
+    background-color: #F2D3D3;
+    text-align: center;
+    position: relative;
+}
+
+.left h1 {
+    line-height: 0px;
+}
+
+.left h2 {
+    margin-top: 30px;
+}
+
+.left h4 {
+    margin-top: 30px;
+}
+
+.scallop {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.right {
+    width: 50%;
+    height: 800px;
+    position: relative;
+}
+
+.right img {
+    border-bottom-left-radius: 30px;
+}
+
+.about {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.about p {
+    font-family: 'Museo Sans';
+    font-size: 25px;
+    font-weight: 300;
+    color: #C16C51;
+    text-align: center;
+}
+
+.about div {
+    display: flex;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+.about img {
+    margin-right: 60px;
+}
+
+.ginger {
+    background-color: #7B84B4;
+    display: flex;
+}
+
+.ginger-text {
+    margin-top: 50px; 
+}
+
+.ginger h3 {
+    font-family: 'Migra';
+    font-size: 42px;
+    text-align: left;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+.ginger p {
+    font-family: 'Museo Sans';
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    text-align: left;
+    margin-right: 200px;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    position: bottom;
+    bottom: 0px;
+    width: 100% vw;
+    height: 50px;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
+  .footerleft {
+    text-align: left;
+    max-width: 400px;
+  }
+
+  .footercenter {
+    text-align: center;
+    max-width: 400px;
+  }
+
+  .footerright {
+    display: flex;
+    max-width: 400px;
+  }
+
+  .footerright .time {
+    margin-left: 20px;
+  }
+
+  .main-footer h1 {
+    color: #000;
+    font-family: 'Museo Sans';
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .footer p {
+    color: #000;
+    font-family: 'Museo Sans';
+    font-size: 18px;
+    font-weight: 300;
+    align-self: flex-end;
+  }
+
+/**/
