@@ -3,7 +3,6 @@
     font-family: "Migra";
     src: url("fonts/Migra-Regular.woff") format('woff');
   }
-
 @font-face {
     font-family: "Migra Italic";
     src: url("fonts/MigraItalic-Italic.woff") format('woff');
@@ -28,7 +27,7 @@ h2 {
     color: #9B131B;
 }
 
-h3{
+h3 {
     font-family: 'Migra';
     font-size: 42px;
     text-align: center;
@@ -40,8 +39,9 @@ h4 {
     font-family: 'Migra Italic';
     font-size: 24px;
     letter-spacing: 2px;
-    line-height: 33px;
+    line-height: 30px;
     margin-left: 150px;
+    margin-top: 0px;
     margin-right: 150px;
     color: #9B131B;
 }
@@ -71,6 +71,14 @@ nav {
   
   .topnav li {
     padding-right: 40px;
+  }
+
+  .topnav a:hover {
+    color: #BA7B00;
+  }
+
+  .topnav a.active {
+    color: #BA7B00;
   }
 
   nav a {
@@ -267,13 +275,21 @@ button:hover {
 
 /* SHOP */
 
+.pagi-about {
+    margin-top: 70px;
+}
+
 .pagi-about p {
     font-family: 'Museo Sans';
     font-size: 20px;
     color: #9B131B;
     font-weight: 400;
-    max-width: 400px;
-    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.head-linetwo  {
+    padding-top: 10px;
 }
 
 /* FOOTER */
