@@ -311,6 +311,9 @@ button:hover {
   font-weight: 500;
   color: #fff;
   text-align: left;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .flip-card-front h3 {
@@ -318,6 +321,8 @@ button:hover {
   font-size: 20px;
   color: #fff;
   text-align: left;
+  margin: 0;
+  margin-left: 20px;
 }
 
 .flip-card-back h1 {
@@ -329,6 +334,9 @@ button:hover {
 
 .flip-card-back h2 {
   font-family: 'Museo Sans';
+  text-align: left;
+  margin: 0;
+  margin-left: 20px;
   font-size: 21px;
   font-weight: 500;
   color: #5B6495;
@@ -336,19 +344,51 @@ button:hover {
 
 .flip-card-back h3 {
   font-family: 'Migra Italic';
-  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  margin-left: 20px;
+  font-size: 18px;
   color: #5B6495;
 }
 
-.flip-card-back .roast p {
+.flip-card-back h4 {
   font-family: 'Museo Sans';
-  font-size: 29px;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-align: left;
   font-weight: 500;
   color: #5B6495;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.flip-card-back p {
+  font-family: 'Migra Italic';
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  color: #5B6495;
+  text-align: left;
+  margin: 0;
+  margin-left: 20px;
+}
+
+.category {
+  font-family: 'Museo Sans';
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .head-linetwo  {
     padding-top: 10px;
+}
+
+.flip-card img {
+  margin: 15px;
 }
 
 .flip-card {
@@ -364,6 +404,7 @@ button:hover {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin: 20px;
 }
 
 .flip-card:hover .flip-card-inner {
@@ -390,6 +431,21 @@ button:hover {
   color: white;
   transform: rotateY(180deg);
   border-radius: 22px;
+}
+
+.buy {
+  border: solid #7B84B4 2px;
+  background-color: #FBC357;
+  color: #7B84B4;
+  padding: 15px 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-family: 'Museo Sans';
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 60px;
+  transition-duration: .4s;
 }
 
 /* FOOTER */
