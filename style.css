@@ -214,6 +214,42 @@ nav {
     margin-right: 200px;
 }
 
+/* MENUS */
+
+.kopi-right {
+  width: 50%;
+  height: 800px;
+  position: relative;
+  background-color: #9B131B;
+  color: #fff;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+}
+
+.food-item {
+  min-width:120px;
+  padding-right:20px;
+  
+}
+
+.price {
+padding-right:16px;
+  }
+
+.food-description {
+  display:inline-block;
+  font-weight:normal;
+  font-style: italic;
+  max-width:300px;
+  
+}
+
 /* VISIT */
 
 .address h2 {
