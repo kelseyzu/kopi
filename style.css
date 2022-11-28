@@ -1,49 +1,49 @@
-@import url("https://use.typekit.net/gtc8eln.css");
+@import url('https://use.typekit.net/gtc8eln.css');
 @font-face {
-    font-family: "Migra";
-    src: url("fonts/Migra-Regular.woff") format('woff');
-  }
+  font-family: 'Migra';
+  src: url('fonts/Migra-Regular.woff') format('woff');
+}
 @font-face {
-    font-family: "Migra Italic";
-    src: url("fonts/MigraItalic-Italic.woff") format('woff');
-  }
+  font-family: 'Migra Italic';
+  src: url('fonts/MigraItalic-Italic.woff') format('woff');
+}
 
 /* STYLES */
 
 h1 {
-    font-family: 'Migra';
-    font-size: 59px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    color: #9B131B;
+  font-family: 'Migra';
+  font-size: 59px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #9b131b;
 }
 
 h2 {
-    font-family: 'Museo Sans';
-    font-weight: 500;
-    font-size: 29px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #9B131B;
+  font-family: 'Museo Sans';
+  font-weight: 500;
+  font-size: 29px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #9b131b;
 }
 
 h3 {
-    font-family: 'Migra';
-    font-size: 42px;
-    text-align: center;
-    color: #9B131B;
-    letter-spacing: 2px;
+  font-family: 'Migra';
+  font-size: 42px;
+  text-align: center;
+  color: #9b131b;
+  letter-spacing: 2px;
 }
 
 h4 {
-    font-family: 'Migra Italic';
-    font-size: 24px;
-    letter-spacing: 2px;
-    line-height: 30px;
-    margin-left: 150px;
-    margin-top: 0px;
-    margin-right: 150px;
-    color: #9B131B;
+  font-family: 'Migra Italic';
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-left: 150px;
+  margin-top: 0px;
+  margin-right: 150px;
+  color: #9b131b;
 }
 
 body {
@@ -57,161 +57,163 @@ body {
 /* NAVIGATION */
 
 nav {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    z-index: 1;
-  }
-  
-  .topnav {
-    display: flex;
-    list-style: none;
-  }
-  
-  .topnav li {
-    padding-right: 40px;
-  }
+  position: relative;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  z-index: 1;
+}
 
-  .topnav a:hover {
-    color: #BA7B00;
-  }
+.topnav {
+  display: flex;
+  list-style: none;
+}
 
-  .topnav a.active {
-    color: #BA7B00;
-  }
+.topnav li {
+  padding-right: 40px;
+}
 
-  nav a {
-    color: #5B6495;
-    font-family: 'Museo Sans';
-    font-size: 20px;
-    color: #5B6495;
-    text-decoration: none;
-    text-transform: uppercase;
-  }
+.topnav a:hover {
+  color: #ba7b00;
+}
 
-  .topnav .visit {
-    margin-top: 30px;
-    margin-right: 70px;
-  }
+.topnav a.active {
+  color: #ba7b00;
+}
 
-  .topnav .shop {
-    margin-top: 30px;
-    margin-left: 70px;
-  }
+nav a {
+  color: #5b6495;
+  font-family: 'Museo Sans';
+  font-size: 20px;
+  color: #5b6495;
+  text-decoration: none;
+  text-transform: uppercase;
+}
 
-  nav .logo {
-    width: 170px;
-  }
+.topnav .visit {
+  margin-top: 30px;
+  margin-right: 70px;
+}
 
-  .menu-nav {
-    list-style: none;
-  }
-  
-  .menu-nav li {
-    padding-right: 40px;
-  }
+.topnav .shop {
+  margin-top: 30px;
+  margin-left: 70px;
+}
 
-  .menu-nav a {
-    font-family: 'Museo Sans';
-    font-size: 38px;
-    font-weight: 900;
-    color: #C16C51;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 80px;
-  }
+nav .logo {
+  width: 170px;
+}
 
+.menu-nav {
+  list-style: none;
+}
+
+.menu-nav li {
+  padding-right: 40px;
+}
+
+.menu-nav a {
+  font-family: 'Museo Sans';
+  font-size: 38px;
+  font-weight: 900;
+  color: #c16c51;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 80px;
+}
+.menu-right {
+  padding-left: 60px;
+}
 /* HOMEPAGE */
 
 .homepage {
-    display: flex;
+  display: flex;
 }
 
 .left {
-    width: 50%;
-    height: 800px;
-    background-color: #F2D3D3;
-    text-align: center;
-    position: relative;
+  width: 50%;
+  height: 800px;
+  background-color: #f2d3d3;
+  text-align: center;
+  position: relative;
 }
 
 .left h1 {
-    line-height: 0px;
+  line-height: 0px;
 }
 
 .left h2 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .left h4 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .scallop {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .right {
-    width: 50%;
-    height: 800px;
-    position: relative;
+  width: 50%;
+  height: 800px;
+  position: relative;
 }
 
 .right img {
-    border-bottom-left-radius: 30px;
+  border-bottom-left-radius: 30px;
 }
 
 .about {
-    margin-top: 90px;
-    margin-bottom: 90px;
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 .about p {
-    font-family: 'Museo Sans';
-    font-size: 25px;
-    font-weight: 300;
-    color: #C16C51;
-    text-align: center;
+  font-family: 'Museo Sans';
+  font-size: 25px;
+  font-weight: 300;
+  color: #c16c51;
+  text-align: center;
 }
 
 .about div {
-    display: flex;
-    margin-left: 320px;
-    margin-right: 320px;
+  display: flex;
+  margin-left: 320px;
+  margin-right: 320px;
 }
 
 .about img {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .ginger {
-    background-color: #7B84B4;
-    display: flex;
+  background-color: #7b84b4;
+  display: flex;
 }
 
 .ginger-text {
-    margin-top: 50px; 
+  margin-top: 50px;
 }
 
 .ginger h3 {
-    font-family: 'Migra';
-    font-size: 42px;
-    text-align: left;
-    color: #fff;
-    letter-spacing: 2px;
+  font-family: 'Migra';
+  font-size: 42px;
+  text-align: left;
+  color: #fff;
+  letter-spacing: 2px;
 }
 
 .ginger p {
-    font-family: 'Museo Sans';
-    font-size: 20px;
-    font-weight: 300;
-    color: #fff;
-    text-align: left;
-    margin-right: 200px;
+  font-family: 'Museo Sans';
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  margin-right: 200px;
 }
 
 /* MENUS */
@@ -220,8 +222,10 @@ nav {
   width: 50%;
   height: 800px;
   position: relative;
-  background-color: #9B131B;
+  background-color: #9b131b;
   color: #fff;
+  display: flex;
+  padding: 80px;
 }
 
 .centered {
@@ -237,18 +241,17 @@ nav {
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
-  min-width:120px;
-  padding-right:20px;
+  min-width: 120px;
+  padding-right: 20px;
   padding-top: 5px;
-  
 }
 
 .price {
-  padding-right:16px;
+  padding-right: 16px;
   font-family: 'Museo Sans';
   font-size: 15px;
   font-weight: 500;
-  }
+}
 
 .food-description {
   display: inline-block;
@@ -258,7 +261,6 @@ nav {
   font-size: 16px;
   max-width: 300px;
   padding-top: 3px;
-  
 }
 
 .table-section {
@@ -268,75 +270,75 @@ nav {
 /* VISIT */
 
 .address h2 {
-    font-family: 'Museo Sans';
-    font-size: 29px;
-    font-weight: 600;
-    color: #7B84B4;
-    letter-spacing: 1px;
-    margin-bottom: 0px;
+  font-family: 'Museo Sans';
+  font-size: 29px;
+  font-weight: 600;
+  color: #7b84b4;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
 }
 
 .address p {
-    line-height: 5px;
+  line-height: 5px;
 }
 
 .address .date {
-    font-family: 'Museo Sans';
-    font-size: 21px;
-    font-weight: 600;
-    color: #7B84B4;
-    text-transform: uppercase;
+  font-family: 'Museo Sans';
+  font-size: 21px;
+  font-weight: 600;
+  color: #7b84b4;
+  text-transform: uppercase;
 }
 
 .address .date-two {
-    font-family: 'Museo Sans';
-    font-size: 21px;
-    font-weight: 600;
-    color: #7B84B4;
-    text-transform: uppercase;
-    padding-top: 20px;
+  font-family: 'Museo Sans';
+  font-size: 21px;
+  font-weight: 600;
+  color: #7b84b4;
+  text-transform: uppercase;
+  padding-top: 20px;
 }
 
 .address .time {
-    font-family: 'Museo Sans';
-    font-size: 21px;
-    font-weight: 300;
-    color: #7B84B4;
+  font-family: 'Museo Sans';
+  font-size: 21px;
+  font-weight: 300;
+  color: #7b84b4;
 }
 
 button {
-    border: solid #7B84B4 2px;
-    background-color: #F2D3D3;
-    color: #7B84B4;
-    padding: 15px 50px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-    font-family: 'Museo Sans';
-    font-size: 18px;
-    font-weight: 500;
-    text-transform: uppercase;
-    border-radius: 60px;
-    transition-duration: .4s;
+  border: solid #7b84b4 2px;
+  background-color: #f2d3d3;
+  color: #7b84b4;
+  padding: 15px 50px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-family: 'Museo Sans';
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 60px;
+  transition-duration: 0.4s;
 }
 
 button:hover {
-    background-color: #7B84B4;
-    color: #fff;
+  background-color: #7b84b4;
+  color: #fff;
 }
 
 /* SHOP */
 
 .pagi-about {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .pagi-about p {
-    font-family: 'Museo Sans';
-    font-size: 20px;
-    color: #9B131B;
-    font-weight: 400;
-    padding-left: 100px;
-    padding-right: 100px;
+  font-family: 'Museo Sans';
+  font-size: 20px;
+  color: #9b131b;
+  font-weight: 400;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .shop {
@@ -357,6 +359,16 @@ button:hover {
   justify-content: space-around;
 }
 
+.shop-buttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.scroll {
+  height: 280px;
+  overflow: scroll;
+}
 .flip-card-front h1 {
   font-family: 'Museo Sans';
   font-size: 29px;
@@ -388,7 +400,7 @@ button:hover {
   font-family: 'Museo Sans';
   font-size: 29px;
   font-weight: 500;
-  color: #5B6495;
+  color: #5b6495;
 }
 
 .flip-card-back h2 {
@@ -398,7 +410,7 @@ button:hover {
   margin-left: 20px;
   font-size: 21px;
   font-weight: 500;
-  color: #5B6495;
+  color: #5b6495;
 }
 
 .flip-card-back h3 {
@@ -408,7 +420,7 @@ button:hover {
   margin: 0;
   margin-left: 20px;
   font-size: 18px;
-  color: #5B6495;
+  color: #5b6495;
 }
 
 .flip-card-back h4 {
@@ -418,7 +430,7 @@ button:hover {
   text-transform: uppercase;
   text-align: left;
   font-weight: 500;
-  color: #5B6495;
+  color: #5b6495;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -430,7 +442,7 @@ button:hover {
   line-height: 22px;
   text-transform: capitalize;
   letter-spacing: 1px;
-  color: #5B6495;
+  color: #5b6495;
   text-align: left;
   margin: 0;
   margin-left: 20px;
@@ -468,7 +480,7 @@ button:hover {
   font-family: 'Museo Sans';
   font-size: 29px;
   font-weight: 500;
-  color: #5B6495;
+  color: #5b6495;
 }
 
 .flip-card-back-medium h2 {
@@ -478,7 +490,7 @@ button:hover {
   margin-left: 20px;
   font-size: 21px;
   font-weight: 500;
-  color: #5B6495;
+  color: #5b6495;
 }
 
 .flip-card-back-medium h3 {
@@ -487,7 +499,7 @@ button:hover {
   margin: 0;
   margin-left: 20px;
   font-size: 18px;
-  color: #5B6495;
+  color: #5b6495;
 }
 
 .flip-card-back-medium h4 {
@@ -497,7 +509,7 @@ button:hover {
   text-transform: uppercase;
   text-align: left;
   font-weight: 500;
-  color: #5B6495;
+  color: #5b6495;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -509,7 +521,7 @@ button:hover {
   line-height: 22px;
   text-transform: capitalize;
   letter-spacing: 1px;
-  color: #5B6495;
+  color: #5b6495;
   text-align: left;
   margin: 0;
   margin-left: 20px;
@@ -547,7 +559,7 @@ button:hover {
   font-family: 'Museo Sans';
   font-size: 29px;
   font-weight: 500;
-  color: #F2D3D3;
+  color: #f2d3d3;
 }
 
 .flip-card-back-dark h2 {
@@ -557,7 +569,7 @@ button:hover {
   margin-left: 20px;
   font-size: 21px;
   font-weight: 500;
-  color: #F2D3D3;
+  color: #f2d3d3;
 }
 
 .flip-card-back-dark h3 {
@@ -566,7 +578,7 @@ button:hover {
   margin: 0;
   margin-left: 20px;
   font-size: 18px;
-  color: #F2D3D3;
+  color: #f2d3d3;
 }
 
 .flip-card-back-dark h4 {
@@ -576,7 +588,7 @@ button:hover {
   text-transform: uppercase;
   text-align: left;
   font-weight: 500;
-  color: #F2D3D3;
+  color: #f2d3d3;
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -588,7 +600,7 @@ button:hover {
   line-height: 22px;
   text-transform: capitalize;
   letter-spacing: 1px;
-  color: #F2D3D3;
+  color: #f2d3d3;
   text-align: left;
   margin: 0;
   margin-left: 20px;
@@ -602,8 +614,8 @@ button:hover {
   text-transform: uppercase;
 }
 
-.head-linetwo  {
-    padding-top: 10px;
+.head-linetwo {
+  padding-top: 10px;
 }
 
 .flip-card img {
@@ -611,9 +623,9 @@ button:hover {
 }
 
 .flip-card {
-    width: 432px;
-    height: 554px;
-    perspective: 1000px;
+  width: 432px;
+  height: 554px;
+  perspective: 1000px;
 }
 
 .flip-card-inner {
@@ -631,13 +643,14 @@ button:hover {
 }
 
 .flip-card-front {
-  background-color: #7B84B4;
-  border: #FBC357 solid 3px;
-  color: #FBC357;
+  background-color: #7b84b4;
+  border: #fbc357 solid 3px;
+  color: #fbc357;
   border-radius: 22px;
 }
 
-.flip-card-front, .flip-card-back {
+.flip-card-front,
+.flip-card-back {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -645,21 +658,22 @@ button:hover {
 }
 
 .flip-card-back {
-  background-color: #FBC357;
-  border: #7B84B4 solid 3px;
+  background-color: #fbc357;
+  border: #7b84b4 solid 3px;
   color: white;
   transform: rotateY(180deg);
   border-radius: 22px;
 }
 
 .flip-card-front-medium {
-  background-color: #7B84B4;
-  border: #F2D3D3 solid 3px;
-  color: #FBC357;
+  background-color: #7b84b4;
+  border: #f2d3d3 solid 3px;
+  color: #fbc357;
   border-radius: 22px;
 }
 
-.flip-card-front-medium, .flip-card-back-medium {
+.flip-card-front-medium,
+.flip-card-back-medium {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -667,21 +681,22 @@ button:hover {
 }
 
 .flip-card-back-medium {
-  background-color: #F2D3D3;
-  border: #7B84B4 solid 3px;
+  background-color: #f2d3d3;
+  border: #7b84b4 solid 3px;
   color: white;
   transform: rotateY(180deg);
   border-radius: 22px;
 }
 
 .flip-card-front-dark {
-  background-color: #7B84B4;
-  border: #5B6495 solid 3px;
-  color: #FBC357;
+  background-color: #7b84b4;
+  border: #5b6495 solid 3px;
+  color: #fbc357;
   border-radius: 22px;
 }
 
-.flip-card-front-dark, .flip-card-back-dark {
+.flip-card-front-dark,
+.flip-card-back-dark {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -689,17 +704,17 @@ button:hover {
 }
 
 .flip-card-back-dark {
-  background-color: #5B6495;
-  border: #7B84B4 solid 3px;
+  background-color: #5b6495;
+  border: #7b84b4 solid 3px;
   color: white;
   transform: rotateY(180deg);
   border-radius: 22px;
 }
 
 .buy {
-  border: solid #7B84B4 2px;
+  border: solid #7b84b4 2px;
   background-color: transparent;
-  color: #7B84B4;
+  color: #7b84b4;
   padding: 15px 30px;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -708,13 +723,13 @@ button:hover {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 60px;
-  transition-duration: .4s;
+  transition-duration: 0.4s;
 }
 
 .buy-dark {
-  border: solid #F2D3D3 2px;
+  border: solid #f2d3d3 2px;
   background-color: transparent;
-  color: #F2D3D3;
+  color: #f2d3d3;
   padding: 15px 30px;
   margin-top: 15px;
   margin-bottom: 30px;
@@ -723,63 +738,63 @@ button:hover {
   font-weight: 500;
   text-transform: uppercase;
   border-radius: 60px;
-  transition-duration: .4s;
+  transition-duration: 0.4s;
 }
 
 .buy-dark:hover {
-  background-color: #F2D3D3;
-  color: #5B6495;
+  background-color: #f2d3d3;
+  color: #5b6495;
 }
 
 /* FOOTER */
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    position: bottom;
-    bottom: 0px;
-    width: 100% vw;
-    height: 50px;
-    color: white;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
-  }
+  display: flex;
+  justify-content: space-between;
+  position: bottom;
+  bottom: 0px;
+  width: 100% vw;
+  height: 50px;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
 
-  .footerleft {
-    text-align: left;
-    max-width: 400px;
-  }
+.footerleft {
+  text-align: left;
+  max-width: 400px;
+}
 
-  .footercenter {
-    text-align: center;
-    max-width: 400px;
-  }
+.footercenter {
+  text-align: center;
+  max-width: 400px;
+}
 
-  .footerright {
-    display: flex;
-    max-width: 400px;
-  }
+.footerright {
+  display: flex;
+  max-width: 400px;
+}
 
-  .footerright .time {
-    margin-left: 20px;
-  }
+.footerright .time {
+  margin-left: 20px;
+}
 
-  .main-footer h1 {
-    color: #000;
-    font-family: 'Museo Sans';
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 50px;
-    margin-top: 50px;
-  }
+.main-footer h1 {
+  color: #000;
+  font-family: 'Museo Sans';
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 50px;
+  margin-top: 50px;
+}
 
-  .footer p {
-    color: #000;
-    font-family: 'Museo Sans';
-    font-size: 18px;
-    font-weight: 300;
-    align-self: flex-end;
-  }
+.footer p {
+  color: #000;
+  font-family: 'Museo Sans';
+  font-size: 18px;
+  font-weight: 300;
+  align-self: flex-end;
+}
 
 /**/
