@@ -225,15 +225,8 @@ nav .logo {
   background-color: #9b131b;
   color: #fff;
   display: flex;
-  padding: 80px;
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: left;
+  padding: 30px;
+  justify-content: space-around;
 }
 
 .food-item {
@@ -241,13 +234,15 @@ nav .logo {
   font-size: 15px;
   font-weight: 500;
   text-transform: uppercase;
-  min-width: 120px;
-  padding-right: 20px;
+  min-width: 140px;
+  padding-right: 22px;
   padding-top: 5px;
 }
 
+
 .price {
   padding-right: 16px;
+  padding-top: 5px;
   font-family: 'Museo Sans';
   font-size: 15px;
   font-weight: 500;
@@ -264,7 +259,11 @@ nav .logo {
 }
 
 .table-section {
-  margin-top: 20px;
+  margin-top: 0px;
+}
+
+td {
+  vertical-align: top;
 }
 
 /* VISIT */
@@ -364,11 +363,19 @@ button:hover {
   bottom: 0;
   left: 0;
   right: 0;
+  justify-content: space-between;
 }
+
 .scroll {
   height: 280px;
   overflow: scroll;
 }
+
+.scroll-large {
+  height: 310px;
+  overflow: scroll;
+}
+
 .flip-card-front h1 {
   font-family: 'Museo Sans';
   font-size: 29px;
@@ -622,6 +629,12 @@ button:hover {
   margin: 10px;
 }
 
+.flip-card .less-margin {
+  margin: 0;
+  margin-top: -10px;
+  margin-bottom: -3px;
+}
+
 .flip-card {
   width: 432px;
   height: 554px;
@@ -635,7 +648,7 @@ button:hover {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin: 20px;
+  margin: 20px 0px 20px 20px;
 }
 
 .flip-card:hover .flip-card-inner {
