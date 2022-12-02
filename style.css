@@ -81,6 +81,18 @@ nav {
   color: #ba7b00;
 }
 
+.menu-nav a.kopi-active {
+  color: #9b131b;
+}
+
+.menu-nav a.wholebean-active {
+  color: #ba7b00;
+}
+
+.menu-nav a.food-active {
+  color: #7b84b4;
+}
+
 nav a {
   color: #5b6495;
   font-family: 'Museo Sans';
@@ -167,9 +179,53 @@ nav .logo {
   border-bottom-left-radius: 30px;
 }
 
+.tag {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  z-index: 1;
+  width: 80%;
+  background-color: #ba7b00;
+  padding: 5px;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+.tag p {
+  text-align: center;
+  font-family: 'Migra';
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding: 50px;
+  
+}
+
+.wholebean-button {
+  border: solid #fff 2px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 50px;
+  font-family: 'Museo Sans';
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 60px;
+  transition-duration: 0.4s;
+  margin: auto;
+}
+
+.wholebean-button:hover {
+  background-color: #fff;;
+  color: #ba7b00;
+  text-decoration: none;
+}
+
 .about {
+  margin: auto;
   margin-top: 90px;
   margin-bottom: 90px;
+  width: 60%;
 }
 
 .about p {
@@ -182,8 +238,6 @@ nav .logo {
 
 .about div {
   display: flex;
-  margin-left: 320px;
-  margin-right: 320px;
 }
 
 .about img {
@@ -197,6 +251,11 @@ nav .logo {
 
 .ginger-text {
   margin-top: 50px;
+  width: 40%;
+}
+
+.ginger img {
+  margin: auto;
 }
 
 .ginger h3 {
@@ -213,7 +272,6 @@ nav .logo {
   font-weight: 300;
   color: #fff;
   text-align: left;
-  margin-right: 200px;
 }
 
 /* MENUS */
@@ -254,7 +312,7 @@ nav .logo {
   text-transform: capitalize;
   letter-spacing: 1px;
   font-size: 16px;
-  max-width: 300px;
+  max-width: 350px;
   padding-top: 3px;
 }
 
@@ -264,6 +322,36 @@ nav .logo {
 
 td {
   vertical-align: top;
+}
+
+/* FOOD */ 
+
+.food-right {
+  width: 50%;
+  height: 800px;
+  position: relative;
+  background-color: #7b84b4;
+  color: #fff;
+  display: flex;
+  padding: 30px;
+}
+
+.menu-left {
+  width: 50%;
+}
+
+.menu-right {
+  width: 50%;
+}
+
+.food-section {
+  display: inline-block;
+  font-family: 'Migra';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 21px;
+  max-width: 300px;
+  padding-bottom: 3px;
 }
 
 /* VISIT */
@@ -761,32 +849,26 @@ button:hover {
 
 /* FOOTER */
 
+.main-footer {
+  width: 90%;
+  margin: auto;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
   position: bottom;
-  bottom: 0px;
-  width: 100% vw;
-  height: 50px;
   color: white;
-  margin-left: 50px;
-  margin-right: 50px;
   margin-bottom: 50px;
 }
 
-.footerleft {
-  text-align: left;
-  max-width: 400px;
-}
 
 .footercenter {
   text-align: center;
-  max-width: 400px;
 }
 
 .footerright {
   display: flex;
-  max-width: 400px;
 }
 
 .footerright .time {
@@ -798,7 +880,6 @@ button:hover {
   font-family: 'Museo Sans';
   font-size: 18px;
   font-weight: 500;
-  margin-left: 50px;
   margin-top: 50px;
 }
 
@@ -811,3 +892,118 @@ button:hover {
 }
 
 /**/
+
+@media screen and (max-width: 1224px) {
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .scallop {
+    width: 0%;
+  }
+  
+  .homepage {
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .right img {
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+
+  .kopi-right {
+    width: 100%;
+  }
+
+  .food-right {
+    width: 100%;
+  }
+
+  .about {
+    margin: auto;
+  }
+
+  .about div {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+
+  .about img {
+    width: 30%;
+    margin: auto;
+  }
+
+  .ginger img {
+    width: 80%;
+    margin: auto;
+  }
+
+  .ginger p {
+    margin: 0;
+  }
+
+  .ginger-text {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .topnav li {
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  .ginger {
+    flex-direction: column;
+  }
+
+  .shop-cards {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .footer {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .main-footer {
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .footerright {
+    margin: auto;
+  }
+  
+}
