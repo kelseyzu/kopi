@@ -40,9 +40,9 @@ h4 {
   font-size: 24px;
   letter-spacing: 2px;
   line-height: 30px;
-  margin-left: 150px;
+  margin: auto;
+  max-width: 450px;
   margin-top: 0px;
-  margin-right: 150px;
   color: #9b131b;
 }
 
@@ -272,6 +272,19 @@ nav .logo {
   font-weight: 300;
   color: #fff;
   text-align: left;
+}
+
+#eyes-open {
+  animation: blink fade-out 1s ease infinite;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 /* MENUS */
@@ -927,6 +940,11 @@ button:hover {
 
   .left {
     width: 100%;
+    height: auto;
+  }
+
+  .left h4 {
+    width: 60%;
   }
 
   .right {
@@ -949,6 +967,7 @@ button:hover {
 
   .about {
     margin: auto;
+    margin-top: 0px;
   }
 
   .about div {
@@ -984,6 +1003,19 @@ button:hover {
 
   .ginger {
     flex-direction: column;
+  }
+
+  .kopi-right {
+    height: auto;
+    
+  }
+
+  .price {
+    padding-right: 10px;
+  }
+
+  .food-right {
+    height: auto;
   }
 
   .shop-cards {
