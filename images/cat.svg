@@ -41,7 +41,7 @@
 <line id="Line 41" x1="18.5" y1="153" x2="18.5" y2="162" stroke="black"/>
 </g>
 
-<g id="eyes_open">
+<g id="eyes-open">
 <circle id="Ellipse 33" cx="93" cy="62" r="7" fill="black"/>
 <circle id="Ellipse 34" cx="51" cy="62" r="7" fill="black"/>
 </g>
@@ -56,7 +56,7 @@
 </g>
 </g>
 
-<g id="eyes_closed">
+<g id="eyes-closed">
 <rect id="Rectangle 56" x="44" y="61" width="14" height="2" fill="black"/>
 <rect id="Rectangle 57" x="86" y="61" width="14" height="2" fill="black"/>
 </g>
