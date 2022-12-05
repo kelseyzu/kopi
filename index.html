@@ -114,10 +114,10 @@
                     </g>
                     </g>
                     </svg> 
+                    <p class="hide">Kopi means Coffee!</p>
             </div>
-            <div class="hide">
-                <p>Kopi means Coffee!</p>
-            </div>
+                
+                
             <p>At Kopi, we add to the rich tapestry of our city by being the only place you’ll find South East Asia’s best coffee. Here we exclusively serve Small Farm Coffee from Thailand, Myanmar, Vietnam, India and small farms from the many islands of the Indonesian archipelago.</p>
             
         </div>
@@ -164,7 +164,16 @@
 
         </div>
     </section>
-
+<script
+  src="https://code.jquery.com/jquery-3.6.1.min.js"
+  integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+  crossorigin="anonymous"></script>
+  <script>
+    $('.cat-svg').hover(function(){
+        $('.cat-svg p').toggleClass('message')
+        $('.cat-svg p').toggleClass('hide')
+    })
+  </script>
     <script src="script.js"></script>
 </body>
 </html>
