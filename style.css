@@ -145,7 +145,7 @@ nav .logo {
 
 .left {
   width: 50%;
-  height: 800px;
+  height: 750px;
   background-color: #f2d3d3;
   text-align: center;
   position: relative;
@@ -172,29 +172,32 @@ nav .logo {
 
 .right {
   width: 50%;
-  height: 800px;
+  height: 750px;
   position: relative;
 }
 
 .right img {
   border-bottom-left-radius: 30px;
 }
+
 .wholebeanpage .right {
-  background-image: url('images/lattepastry.jpg');
+  background-image: url('images/Kopi_ColdBrew2\ 1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom-left-radius: 30px;
   display: flex;
   align-items: center;
 }
+
 .tag {
   z-index: 1;
-  width: 85%;
+  width: 80%;
   margin: auto;
   background-color: #ba7b00;
-  padding: 5px;
+  padding: 20px 50px;
   justify-content: center;
   color: #ffffff;
+  border-radius: 30px;
 }
 
 .tag p {
@@ -202,7 +205,10 @@ nav .logo {
   font-family: 'Migra';
   font-size: 24px;
   letter-spacing: 1px;
-  padding: 50px;
+}
+
+.tag-text {
+  margin-bottom: 50px;
 }
 
 .to-shop:hover {
@@ -223,7 +229,6 @@ nav .logo {
   text-transform: uppercase;
   border-radius: 60px;
   transition-duration: 0.4s;
-  margin: auto;
 }
 
 .about {
@@ -259,12 +264,13 @@ nav .logo {
 }
 
 .ginger-text {
-  margin-top: 50px;
-  width: 40%;
+  width: 50%;
+  margin: 50px;
+  margin-right: 100px;
 }
 
 .ginger img {
-  margin: auto;
+  width: 50%;
 }
 
 .ginger h3 {
@@ -290,39 +296,43 @@ nav .logo {
 }
 
 .cat-svg:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
   transition: 0.2s ease-in-out;
 }
 
 .hide {
   display: none;
 }
+
+.cat-svg p {
+  font-family: 'Migra Italic';
+  letter-spacing: 1px;
+  color: #fff;
+}
+
 .message {
   display: block;
   position: absolute;
-  top: -160px;
-  left: -100px;
+  top: -50px;
+  left: -150px;
   z-index: 2;
-  max-width: 10em;
-  background-color: #fff;
-  padding: 1.125em 1.5em;
-  font-size: 1.25em;
+  max-width: 130px;
+  background-color: #ba7b00;
+  padding: 30px;
   border-radius: 1rem;
-  box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.3), 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.2);
 }
 
 p.message::after {
   content: '';
   position: absolute;
-  bottom: -18px;
-  right: 50px;
+  bottom: 28px;
+  right: -15px;
   width: 0;
   height: 0;
-  transform: rotate(180deg);
+  transform: rotate(90deg);
   border: 0.75rem solid transparent;
   border-top: none;
-  border-bottom-color: #fff;
-  filter: drop-shadow(0 -0.0625rem 0.0625rem rgba(0, 0, 0, 0.1));
+  border-bottom-color: #ba7b00;
 }
 
 .cat-svg:hover {
@@ -366,7 +376,7 @@ p.message::after {
 
 .kopi-right {
   width: 50%;
-  height: 800px;
+  height: 750px;
   position: relative;
   background-color: #9b131b;
   color: #fff;
@@ -425,7 +435,7 @@ td {
 
 .food-right {
   width: 50%;
-  height: 800px;
+  height: 750px;
   position: relative;
   background-color: #7b84b4;
   color: #fff;
@@ -616,14 +626,6 @@ button:hover {
   justify-content: space-around;
 }
 
-.shop-buttons {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  justify-content: space-between;
-}
-
 .scroll {
   height: 280px;
   overflow: scroll;
@@ -699,6 +701,7 @@ button:hover {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .flip-card-back p {
@@ -778,6 +781,7 @@ button:hover {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .flip-card-back-medium p {
@@ -857,6 +861,7 @@ button:hover {
   margin-top: 20px;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .flip-card-back-dark p {
@@ -1017,6 +1022,78 @@ button:hover {
   color: #5b6495;
 }
 
+.shop-buttons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-buttons input {
+  width: 60px;
+  border: solid #7b84b4 2px;
+  font-family: 'Museo Sans';
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+  text-align: center;
+  background: transparent;
+  color: #7b84b4;
+  border-radius: 60px;
+  appearance: none;
+}
+
+.shop-buttons span {
+  display: inline;
+  font-family: 'Museo Sans';
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor:pointer;
+  color: #7b84b4;
+  user-select: none;
+}
+
+.shop-buttons-dark {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-buttons-dark input {
+  width: 60px;
+  border: solid #f2d3d3 2px;
+  font-family: 'Museo Sans';
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px;
+  text-align: center;
+  background: transparent;
+  color: #f2d3d3;
+  border-radius: 60px;
+  appearance: none;
+}
+
+.shop-buttons-dark span {
+  display: inline;
+  font-family: 'Museo Sans';
+  font-size: 30px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor:pointer;
+  color: #f2d3d3;
+  user-select: none;
+}
+
+.up {
+  margin-right: 40px;
+}
+
 /* FOOTER */
 
 .main-footer {
@@ -1101,12 +1178,17 @@ button:hover {
 
   .right {
     width: 100%;
+    height: auto;
   }
 
   .right img {
     width: 100%;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+  }
+
+  .cat-svg {
+    margin: auto;
   }
 
   .kopi-right {
@@ -1119,12 +1201,10 @@ button:hover {
 
   .about {
     margin: auto;
-    margin-top: 0px;
   }
 
   .about div {
     flex-direction: column;
-    width: 80%;
     margin: auto;
   }
 
@@ -1167,6 +1247,11 @@ button:hover {
 
   .food-right {
     height: auto;
+  }
+
+  .pagi-about {
+    margin: auto;
+    margin-bottom: 50px;
   }
 
   .shop-cards {

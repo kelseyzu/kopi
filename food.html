@@ -193,8 +193,8 @@
                     <path id="Subtract_5" fill-rule="evenodd" clip-rule="evenodd" d="M164 69.5C164 61.4919 157.508 55 149.5 55C141.492 55 135 61.4919 135 69.5L136 69.5C136 62.0442 142.044 56 149.5 56C156.956 56 163 62.0442 163 69.5L164 69.5Z" fill="#BA7B00"/>
                     </g>
                     </g>
-                    </svg>
-                    
+                    </svg> 
+                    <p class="hide">Kopi means coffee!</p>
             </div>
             <p>At Kopi, we add to the rich tapestry of our city by being the only place you’ll find South East Asia’s best coffee. Here we exclusively serve Small Farm Coffee from Thailand, Myanmar, Vietnam, India and small farms from the many islands of the Indonesian archipelago.</p>
         </div>
@@ -202,9 +202,7 @@
 
     <section class="ginger">
         <div class="ginger">
-            <div>
-                 <img src="images/ginger.png">
-            </div>
+            <img src="images/ginger.png">
             <div class="ginger-text">
                 <h3>Kopi & Jahe</h3>
                 <p>Jahe <span class="italic">(ginger)</span> is an essential element at Kopi.</p>
@@ -240,6 +238,17 @@
             </div>
         </div>
     </section>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+    <script>
+      $('.cat-svg').hover(function(){
+          $('.cat-svg p').toggleClass('message')
+          $('.cat-svg p').toggleClass('hide')
+      })
+    </script>
 
     <script src="script.js"></script>
 </body>
